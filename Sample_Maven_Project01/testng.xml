@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestPom">
+    <classes>
+      <class name="Sample_Maven_Project_ELF25.RegisterTest"/>
+      <class name="Sample_Maven_Project_ELF25.LoginTest"/>
+       <class name="Sample_Maven_Project_ELF25.SelectTest"/>
+      
+    </classes>
+  </test> <!-- TestPom -->
+</suite> <!-- Suite -->
